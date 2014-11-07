@@ -169,10 +169,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="SC" destination="tek-M2-5eq" id="OZQ-wv-dN9"/>
-                        <outlet property="SC2" destination="KXi-Qd-Tka" id="SjY-iG-mEL"/>
-                        <outlet property="SC3" destination="Pwv-dD-xLd" id="YzD-rW-Ohq"/>
-                        <outlet property="SC4" destination="E4e-hk-aQm" id="i9a-HB-h4N"/>
+                        <outlet property="BackColor" destination="tek-M2-5eq" id="mWa-C7-fQb"/>
+                        <outlet property="Star" destination="Pwv-dD-xLd" id="VGC-lx-tOH"/>
+                        <outlet property="StarColor" destination="KXi-Qd-Tka" id="gjV-Qn-jz3"/>
+                        <outlet property="StarSize" destination="E4e-hk-aQm" id="nIH-vG-cEg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oRz-Sv-zU9" userLabel="First Responder" sceneMemberID="firstResponder"/>

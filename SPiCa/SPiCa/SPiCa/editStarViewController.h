@@ -13,5 +13,7 @@
 
 
 @property UIImage *picture;
+@property UIImage *Star;
+
 
 @end

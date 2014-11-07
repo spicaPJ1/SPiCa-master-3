@@ -33,6 +33,9 @@ NSInteger tagNo;
 
 NSMutableArray *stars;
 
+UIImage *Star;
+
+
 @implementation editStarViewController
 - (void)viewDidLoad
 {
@@ -247,6 +250,7 @@ NSMutableArray *stars;
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     //Segueの特定    
+    /*
     if ( [[segue identifier] isEqualToString:@"toEditLine"] ) {
         editLineViewController *editLineViewController = [segue destinationViewController];
         //ここで遷移先ビューのクラスの変数receiveStringに値を渡している
@@ -256,14 +260,14 @@ NSMutableArray *stars;
         editLineViewController.stars = stars;
         
     }
-    /*
-    else if ([[segue identifier] isEqualToString:@"PalletSegue"] ){
+    */
+    if ([[segue identifier] isEqualToString:@"PalletSegue"] ){
         PalletViewController *palletViewController = [segue destinationViewController];
         
         palletViewController.a = @"test";
-        palletViewController.color = 1 ;
+        palletViewController.haikei_color = 1 ;
     }
-    */
+    
 }
 
 

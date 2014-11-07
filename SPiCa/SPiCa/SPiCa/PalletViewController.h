@@ -26,7 +26,7 @@
 @property int hoshi_katachi;
 @property int hoshi_ookisa;
 
-
+-(IBAction)button_back;
 
 -(IBAction)SegChanged:(id)sender;
 

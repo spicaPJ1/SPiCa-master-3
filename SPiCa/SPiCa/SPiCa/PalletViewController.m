@@ -7,7 +7,8 @@
 //
 
 #import "PalletViewController.h"
-//#import "editStarViewController.h"
+#import "editStarViewController.h"
+
 
 @interface PalletViewController ()
 
@@ -27,11 +28,11 @@
     [super viewDidLoad];
     if([self.a isEqualToString:( @"PalletSegue")]){
         BackColor.selectedSegmentIndex = 1;
-    }else if([self.a isEqualToString:( @"bbbb")]){
+    }else if([self.a isEqualToString:( @"PalletSegue")]){
         StarColor.selectedSegmentIndex = 2;
-    }else if([self.a isEqualToString:( @"cccc")]){
+    }else if([self.a isEqualToString:( @"PalletSegue")]){
         Star.selectedSegmentIndex = 3;
-    }else if([self.a isEqualToString:( @"dddd")]){
+    }else if([self.a isEqualToString:( @"PalletSegue")]){
         StarSize.selectedSegmentIndex = 4;
     }
 
@@ -66,6 +67,9 @@
     }
 }
 
+-(IBAction)button_back{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 /*

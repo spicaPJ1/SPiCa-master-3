@@ -250,7 +250,7 @@ UIImage *Star;
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     //Segueの特定    
-    /*
+    
     if ( [[segue identifier] isEqualToString:@"toEditLine"] ) {
         editLineViewController *editLineViewController = [segue destinationViewController];
         //ここで遷移先ビューのクラスの変数receiveStringに値を渡している
@@ -260,14 +260,17 @@ UIImage *Star;
         editLineViewController.stars = stars;
         
     }
-    */
+    /*
     if ([[segue identifier] isEqualToString:@"PalletSegue"] ){
         PalletViewController *palletViewController = [segue destinationViewController];
         
         palletViewController.a = @"test";
         palletViewController.haikei_color = 1 ;
+        palletViewController.hoshi_color = 2 ;
+        palletViewController.hoshi_katachi = 3 ;
+        palletViewController.hoshi_ookisa = 4 ;
     }
-    
+    */
 }
 
 

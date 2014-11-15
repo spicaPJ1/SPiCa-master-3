@@ -20,11 +20,15 @@
 
 
 //@property(weak, nonatomic) IBOutlet UISegmentedControl *sc;
-@property NSString *a;
-@property int haikei_color;
-@property int hoshi_color;
-@property int hoshi_katachi;
-@property int hoshi_ookisa;
+@property NSString *str1;
+@property NSString *str2;
+@property NSString *str3;
+@property NSString *str4;
+
+@property int int_Back_color;
+@property int int_Star_color;
+@property int int_Star_katachi;
+@property int int_Star_Size;
 
 -(IBAction)button_back;
 

@@ -26,13 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    if([self.a isEqualToString:( @"PalletSegue")]){
+    if([self.str1 isEqualToString:( @"PalletSegue")]){
         BackColor.selectedSegmentIndex = 1;
-    }else if([self.a isEqualToString:( @"PalletSegue")]){
+    }else if([self.str2 isEqualToString:( @"PalletSegue")]){
         StarColor.selectedSegmentIndex = 2;
-    }else if([self.a isEqualToString:( @"PalletSegue")]){
+    }else if([self.str3 isEqualToString:( @"PalletSegue")]){
         Star.selectedSegmentIndex = 3;
-    }else if([self.a isEqualToString:( @"PalletSegue")]){
+    }else if([self.str4 isEqualToString:( @"PalletSegue")]){
         StarSize.selectedSegmentIndex = 4;
     }
 
@@ -53,20 +53,17 @@
     return self;
     
 }
-
+/*
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     //Segueの特定
     if ([[segue identifier] isEqualToString:@"PalletSegue"] ){
         PalletViewController *palletViewController = [segue destinationViewController];
         
-        palletViewController.haikei_color = 1;
-        palletViewController.hoshi_color = 2;
-        palletViewController.hoshi_katachi = 3;
-        palletViewController.hoshi_ookisa = 4;
-    }
+            }
 }
-
+*/
+ 
 -(IBAction)button_back{
     [self dismissViewControllerAnimated:YES completion:nil];
 }

@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SPiCa/PalletViewController.m"
+            filePath = "SPiCa/PaletteViewController.m"
             timestampString = "437057972.495531"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "63"
             endingLineNumber = "63"
-            landmarkName = "@implementation PalletViewController"
+            landmarkName = "@implementation PaletteViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SPiCa/PalletViewController.m"
+            filePath = "SPiCa/PaletteViewController.m"
             timestampString = "437058025.310222"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "60"
             endingLineNumber = "60"
-            landmarkName = "@implementation PalletViewController"
+            landmarkName = "@implementation PaletteViewController"
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>

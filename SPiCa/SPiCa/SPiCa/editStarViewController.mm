@@ -9,7 +9,7 @@
 #import "editStarViewController.h"
 #import "DragView.h"
 #import "editLineViewController.h"
-#import "PalletViewController.h"
+#import "PaletteViewController.h"
 // opencv の import
 #import <opencv2/opencv.hpp>
 #import <opencv2/highgui/ios.h>
@@ -261,14 +261,14 @@ UIImage *Star;
         
     }
     
-    if ([[segue identifier] isEqualToString:@"PalletSegue"] ){
-        PalletViewController *palletViewController = [segue destinationViewController];
+    if ([[segue identifier] isEqualToString:@"PaletteSegue"] ){
+        PalletViewController *paletteViewController = [segue destinationViewController];
         
-        palletViewController.str1 = @"test";
-        palletViewController.int_Back_color = 1 ;
-        palletViewController.int_Star_color = 2 ;
-        palletViewController.int_Star_obj = 3 ;
-        palletViewController.int_Star_size = 4 ;
+        paletteViewController.str1 = @"test";
+        paletteViewController.int_Back_color = 1 ;
+        paletteViewController.int_Star_color = 2 ;
+        paletteViewController.int_Star_obj = 3 ;
+        paletteViewController.int_Star_size = 4 ;
     }
     
 }

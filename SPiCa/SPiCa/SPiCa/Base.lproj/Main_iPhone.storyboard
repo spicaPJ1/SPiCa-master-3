@@ -200,7 +200,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="UJG-ka-z8M" kind="modal" identifier="PalletSegue" id="F8Q-7F-o2l"/>
+                                    <segue destination="UJG-ka-z8M" kind="modal" identifier="PaletteSegue" id="F8Q-7F-o2l"/>
                                 </connections>
                             </button>
                         </subviews>

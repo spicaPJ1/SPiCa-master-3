@@ -6,7 +6,7 @@
 //  Copyright (c) 2014年 島崎　恵美. All rights reserved.
 //
 
-#import "PalletViewController.h"
+#import "PaletteViewController.h"
 #import "editStarViewController.h"
 
 
@@ -26,13 +26,13 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    if([self.str1 isEqualToString:( @"PalletSegue")]){
+    if([self.str1 isEqualToString:( @"PaletteSegue")]){
         BackColor.selectedSegmentIndex = 1;
-    }else if([self.str2 isEqualToString:( @"PalletSegue")]){
+    }else if([self.str2 isEqualToString:( @"PaletteSegue")]){
         StarColor.selectedSegmentIndex = 2;
-    }else if([self.str3 isEqualToString:( @"PalletSegue")]){
+    }else if([self.str3 isEqualToString:( @"PaletteSegue")]){
         Star.selectedSegmentIndex = 3;
-    }else if([self.str4 isEqualToString:( @"PalletSegue")]){
+    }else if([self.str4 isEqualToString:( @"PaletteSegue")]){
         StarSize.selectedSegmentIndex = 4;
     }
 

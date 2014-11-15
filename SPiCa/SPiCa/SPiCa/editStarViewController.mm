@@ -267,8 +267,8 @@ UIImage *Star;
         palletViewController.str1 = @"test";
         palletViewController.int_Back_color = 1 ;
         palletViewController.int_Star_color = 2 ;
-        palletViewController.int_Star_katachi = 3 ;
-        palletViewController.int_Star_Size = 4 ;
+        palletViewController.int_Star_obj = 3 ;
+        palletViewController.int_Star_size = 4 ;
     }
     
 }

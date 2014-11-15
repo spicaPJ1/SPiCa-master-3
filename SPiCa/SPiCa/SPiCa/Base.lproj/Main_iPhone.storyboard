@@ -117,17 +117,6 @@
                                     <action selector="SegChanged:" destination="UJG-ka-z8M" eventType="valueChanged" id="LWX-N5-LGD"/>
                                 </connections>
                             </segmentedControl>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="285" placeholderIntrinsicHeight="48" restorationIdentifier="star" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Pwv-dD-xLd">
-                                <rect key="frame" x="20" y="288" width="285" height="49"/>
-                                <segments>
-                                    <segment title="" image="hoshi01.png"/>
-                                    <segment title="" image="hoshi12.png"/>
-                                    <segment title="" image="hoshi99.png"/>
-                                </segments>
-                                <connections>
-                                    <action selector="SegChanged:" destination="UJG-ka-z8M" eventType="valueChanged" id="2aV-c7-ttF"/>
-                                </connections>
-                            </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" restorationIdentifier="starsize" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="E4e-hk-aQm">
                                 <rect key="frame" x="20" y="430" width="285" height="29"/>
                                 <segments>
@@ -168,6 +157,17 @@
                                     <action selector="button_back" destination="UJG-ka-z8M" eventType="touchUpInside" id="srx-ED-GI8"/>
                                 </connections>
                             </button>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="285" placeholderIntrinsicHeight="48" restorationIdentifier="star" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="Pwv-dD-xLd">
+                                <rect key="frame" x="20" y="288" width="285" height="49"/>
+                                <segments>
+                                    <segment title="" image="hoshi01.png"/>
+                                    <segment title="" image="hoshi12.png"/>
+                                    <segment title="" image="hoshi99.png"/>
+                                </segments>
+                                <connections>
+                                    <action selector="SegChanged:" destination="UJG-ka-z8M" eventType="valueChanged" id="2aV-c7-ttF"/>
+                                </connections>
+                            </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>

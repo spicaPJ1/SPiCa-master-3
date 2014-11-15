@@ -27,8 +27,8 @@
 
 @property int int_Back_color;
 @property int int_Star_color;
-@property int int_Star_katachi;
-@property int int_Star_Size;
+@property int int_Star_obj;
+@property int int_Star_size;
 
 -(IBAction)button_back;
 
